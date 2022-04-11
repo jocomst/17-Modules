@@ -1,5 +1,3 @@
-/*
-
 // importing module
 // import { addToCart, totalPrice as price, qt } from './shoppingCart.js';
 console.log(`Importing module`);
@@ -62,8 +60,6 @@ const ShoppingCart2 = (function () {
 ShoppingCart2.addToCart('apple', 4);
 ShoppingCart2.addToCart('pizza', 4);
 console.log(ShoppingCart2);
-
-*/
 
 import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
 
